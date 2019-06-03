@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import faker from 'faker';
 import Card from './components/Card';
 import NavBar from './components/NavBar';
+import mainLogo from'./images/logo.png';
 var data = require('./MockData.json');
 
 const App = () => {
     return (
     <div>
-        <NavBar image={faker.image.business()}/>
+        <NavBar image={mainLogo}/>
 
         <div className="card-container">
             <Card title={data[0].title} image={faker.image.business()} description={data[0].description} version={data[0].version} owner={data[0].owner} link={data[0].link}/>
