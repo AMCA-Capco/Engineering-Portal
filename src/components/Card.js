@@ -16,7 +16,7 @@ const Card = (props) => {
                         <hr className="horizontal-line"></hr>
                         <div className="owner">
                             <img className="profile-picture" src={props.image} alt="Logo" />
-                            <p>{props.owner}</p>
+                            <p className="profile-name">{props.owner}</p>
                         </div>
                     </div>
                 </div>           

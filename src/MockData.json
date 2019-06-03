@@ -1,9 +1,9 @@
 [        
     {
         "title": "OnBoarding", 
-        "description": "Create a GCP project in a standard way", 
+        "description": "Help new joiners onboard into the team", 
         "version": "Version 1.0", 
-        "owner": "Priya Nirmal", 
+        "owner": "Mo Beldo", 
         "link":"/"
     },
     {
@@ -15,16 +15,16 @@
     },
     {
         "title": "Technology Radar", 
-        "description": "Create a GCP project in a standard way", 
+        "description": "N/A", 
         "version": "Version 1.0", 
-        "owner": "Priya Nirmal", 
+        "owner": "Jason Luu", 
         "link":"/"
     },
     {
         "title": "Team Graph Database", 
-        "description": "Create a GCP project in a standard way", 
+        "description": "N/A", 
         "version": "Version 1.0", 
-        "owner": "Priya Nirmal", 
+        "owner": "N/A", 
         "link":"/"
     }
 ]
