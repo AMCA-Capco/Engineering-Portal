@@ -1,3 +1,8 @@
+:root {
+    --pink: Deeppink;
+    --grey: #605c68;
+}
+
 body{
 	background-color: #f1f1f1;
 	font-family: "Tungsten";
@@ -34,10 +39,10 @@ body{
 	cursor: pointer;
 }
 .card-linked {
-	color: #424242;
+	color: var(--grey);
 }
 .card-linked:hover {
-	color: #424242;
+	color: var(--grey);
 }
 .display:hover{
 	overflow:visible;
@@ -61,7 +66,7 @@ body{
 	p {
 		font-family: "Arial Narrow";
 		font-size: 1.6vh;
-		color: #605c68;
+		color: var(--grey);
 	}
 	hr {
 		width: 30%;
@@ -75,7 +80,6 @@ body{
 		align-content: center;
 		align-items: center;
 		justify-content: center;
-		  
 	}
 	.profile-picture{
 		width: 20px;

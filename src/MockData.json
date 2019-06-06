@@ -4,27 +4,36 @@
         "description": "Help new joiners onboard into the team", 
         "version": "Version 1.0", 
         "owner": "Mo Beldo", 
-        "link":"/"
+        "link":"/",
+        "imageUrl": "https://picsum.photos/200/300",
+        "ownerImageUrl": "https://picsum.photos/200/300"
     },
     {
         "title": "Add GCP Projects", 
         "description": "Create a GCP project in a standard way", 
         "version": "Version 1.0", 
         "owner": "Priya Nirmal", 
-        "link":"/"
+        "link":"/",
+        "imageUrl": "https://picsum.photos/200/300",
+        "ownerImageUrl": "https://picsum.photos/200/300"
+
     },
     {
         "title": "Technology Radar", 
         "description": "N/A", 
         "version": "Version 1.0", 
         "owner": "Jason Luu", 
-        "link":"/"
+        "link":"/",
+        "imageUrl": "https://picsum.photos/200/300",
+        "ownerImageUrl": "https://picsum.photos/200/300"
     },
     {
         "title": "Team Graph Database", 
         "description": "N/A", 
         "version": "Version 1.0", 
-        "owner": "N/A", 
-        "link":"/"
+        "owner": "Carmen", 
+        "link":"/",
+        "imageUrl": "https://picsum.photos/200/300",
+        "ownerImageUrl": "https://picsum.photos/200/300"
     }
 ]

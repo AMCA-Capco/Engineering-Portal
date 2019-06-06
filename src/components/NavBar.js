@@ -1,23 +1,25 @@
 import React from "react";
-import NavBarItems from './NavBarItems';
-
+// import NavBarItems from './NavBarItems';
 import "../styles/NavBar.scss";
 
 
 const NavBar = (props) => {
     return (
-        <div>
-            <div className="ui secondary pointing menu">
+        <div className="header">
+            <div className="left">
                 <img className="capco-logo" src={props.image} alt="Logo" />
-                <NavBarItems item="Home" />
+                <a href="/" className="nav-item">
+                    Home
+                </a>
+                <a href="/" className="nav-item">
+                    Reminders
+                </a>
+                {/* <NavBarItems item="Home" />
                 <NavBarItems item="Reminders" />
-                <NavBarItems item="Awareness" />
-
-                <div className="right menu">
-                    <a href="/" className="ui item">
-                        Logout
-                    </a>
-                </div>
+                <NavBarItems item="Awareness" /> */}
+                <a href="/" className="nav-item right">
+                    Logout
+                </a>
             </div>
         </div>
     );
